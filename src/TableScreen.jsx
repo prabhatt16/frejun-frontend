@@ -93,17 +93,17 @@ const TableScreen = () => {
               );
             })}
           </View>
-          <TouchableOpacity
-            onPress={() => {
-              navigation.navigate('AddUser');
-            }}
-            className="bg-black rounded-md py-2 m-4 w-fit">
-            <Text className="text-lg font-bold text-white text-center">
-              Add New
-            </Text>
-          </TouchableOpacity>
         </>
       )}
+      <TouchableOpacity
+        onPress={() => {
+          navigation.navigate('AddUser');
+        }}
+        className="bg-black rounded-md py-2 m-4 w-fit">
+        <Text className="text-lg font-bold text-white text-center">
+          Add New
+        </Text>
+      </TouchableOpacity>
     </SafeAreaView>
   );
 };
